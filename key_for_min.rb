@@ -10,5 +10,5 @@ def key_for_min_value(name_hash)
       smallkey = key
     end
   end
-  name_hash == {} ? return nil : return smallkey
+  if name_hash == {} then return nil else return smallkey end
 end
