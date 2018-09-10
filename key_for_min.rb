@@ -10,6 +10,6 @@ def key_for_min_value(name_hash)
       smallkey = key
     end
   end
-  if name_hash == nil return nil
+  if name_hash == nil return nil end
   smallkey
 end
